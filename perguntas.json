@@ -1,0 +1,3724 @@
+[
+  {
+    "id": "identificacao",
+    "text": "Identificação do paciente:",
+    "type": "group",
+    "group": "identificacao"
+  },
+  {
+    "id": "nome",
+    "text": "Nome",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "cpf",
+    "text": "CPF",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "natural",
+    "text": "Natural",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "idade",
+    "text": "Idade",
+    "type": "number",
+    "group": "identificacao"
+  },
+  {
+    "id": "data_nascimento",
+    "text": "D.N",
+    "type": "date",
+    "group": "identificacao"
+  },
+  {
+    "id": "estado_civil",
+    "text": "Estado Civil",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "escolaridade",
+    "text": "Escolaridade",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "profissao",
+    "text": "Profissão",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "whatsapp",
+    "text": "WHATSAPP",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "pai",
+    "text": "Pai",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "mae",
+    "text": "Mãe",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "solicitante",
+    "text": "Solicitante",
+    "type": "text",
+    "group": "identificacao"
+  },
+  {
+    "id": "descricao_demanda",
+    "text": "DESCRIÇÃO DA DEMANDA:",
+    "type": "group",
+    "group": "demanda"
+  },
+  {
+    "id": "queixa_principal",
+    "text": "Queixa Principal",
+    "type": "textarea",
+    "group": "demanda"
+  },
+  {
+    "id": "historico_psiquiatrico_psicologico",
+    "text": "Histórico Psiquiátrico e Psicológico",
+    "type": "textarea",
+    "group": "demanda"
+  },
+  {
+    "id": "medicamentos_usados",
+    "text": "Medicamentos Usados",
+    "type": "textarea",
+    "group": "demanda"
+  },
+  {
+    "id": "procedimentos",
+    "text": "PROCEDIMENTOS/O QUE SERÁ FEITO:",
+    "type": "group",
+    "group": "procedimentos"
+  },
+  {
+    "id": "plano_acao",
+    "text": "Plano de ação (o que será feito)",
+    "type": "textarea",
+    "group": "procedimentos"
+  },
+  {
+    "id": "inicio_tratamento",
+    "text": "Início Tratamento",
+    "type": "date",
+    "group": "procedimentos"
+  },
+  {
+    "id": "alta_tratamento",
+    "text": "Alta Tratamento",
+    "type": "date",
+    "group": "procedimentos"
+  },
+  {
+    "id": "desistencia_sem_motivos",
+    "text": "Desistência sem motivos",
+    "type": "text",
+    "group": "procedimentos"
+  },
+  {
+    "id": "registro_evolucao",
+    "text": "REGISTRO DA EVOLUÇÃO/PLANEJAMENTO:",
+    "type": "group",
+    "group": "evolucao",
+    "meta": "repetitive_by_session"
+  },
+  {
+    "id": "n_cons",
+    "text": "N.Cons (numero de sessão)",
+    "type": "number",
+    "group": "evolucao"
+  },
+  {
+    "id": "data_sessao",
+    "text": "Data (sessão)",
+    "type": "date",
+    "group": "evolucao"
+  },
+  {
+    "id": "historico_queixa_atual",
+    "text": "Histórico da Queixa Atual/ Descrição",
+    "type": "textarea",
+    "group": "evolucao"
+  },
+  {
+    "id": "tecnicas_utilizadas",
+    "text": "Técnicas Utilizadas",
+    "type": "textarea",
+    "group": "evolucao"
+  },
+  {
+    "id": "evolucao_estado_humor_text",
+    "text": "Evolução / Estado de Humor (texto)",
+    "type": "textarea",
+    "group": "evolucao"
+  },
+  {
+    "id": "nota_humor_1",
+    "text": "NOTA linha 1 - opções de humor (Equilibrado/Controlada, Alegria, Ansiedade, Tristeza)",
+    "type": "group_checkbox",
+    "options": [
+      "Equilibrado / Controlada",
+      "Alegria / Felicidade",
+      "Ansiedade",
+      "Tristeza"
+    ],
+    "group": "evolucao"
+  },
+  {
+    "id": "nota_humor_2",
+    "text": "NOTA linha 2 - opções de humor segunda entrada",
+    "type": "group_checkbox",
+    "options": [
+      "Equilibrado / Controlada",
+      "Alegria / Felicidade",
+      "Ansiedade",
+      "Tristeza"
+    ],
+    "group": "evolucao"
+  },
+  {
+    "id": "qualidade_sono_block",
+    "text": "Qualidade do Sono:",
+    "type": "group",
+    "group": "sono"
+  },
+  {
+    "id": "qualidade_sono_1",
+    "text": "Qualidade do Sono(BOM/REGULAR/PÉSSIMO)",
+    "type": "radio",
+    "options": [
+      "Bom",
+      "Regular",
+      "Péssimo"
+    ],
+    "group": "sono",
+    "has_observation": true
+  },
+  {
+    "id": "qualidade_sono_obs_1",
+    "text": "Observação: ",
+    "type": "textarea",
+    "group": "sono"
+  },
+  {
+    "id": "qualidade_sono_2",
+    "text": "Qualidade do Sono(BOM / REGULAR / PÉSSIMO)",
+    "type": "radio",
+    "options": [
+      "Bom",
+      "Regular",
+      "Péssimo"
+    ],
+    "group": "sono",
+    "has_observation": true
+  },
+  {
+    "id": "qualidade_sono_obs_2",
+    "text": "Observação:",
+    "type": "textarea",
+    "group": "sono"
+  },
+  {
+    "id": "feedback_paciente",
+    "text": "Feedback do Paciente / existe algo que possa atrapalhar sua ação?",
+    "type": "textarea",
+    "group": "geral"
+  },
+  {
+    "id": "anotacoes_privadas",
+    "text": "Anotações Privadas do Psicólogo",
+    "type": "textarea",
+    "group": "geral"
+  },
+  {
+    "id": "analise_texto",
+    "text": "IV - ANÁLISE (texto)",
+    "type": "textarea",
+    "group": "conclusao"
+  },
+  {
+    "id": "conclusao_texto",
+    "text": "V - CONCLUSÃO (texto)",
+    "type": "textarea",
+    "group": "conclusao"
+  },
+  {
+    "id": "antecedentes_saude",
+    "text": "Antecedentes de Saúde",
+    "type": "group",
+    "group": "antecedentes"
+  },
+  {
+    "id": "diagnostico_transtorno_mental",
+    "text": "Você já foi diagnosticado com algum transtorno mental",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "diagnostico_transtorno_mental_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "fumante",
+    "text": "É fumante",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "fumante_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "uso_bebida",
+    "text": "Faz uso de bebida alcoólica",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "uso_bebida_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "toma_medicamento",
+    "text": "Toma algum medicamento",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "toma_medicamento_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "faz_tratamento_saude",
+    "text": "Faz tratamento de saúde",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "faz_tratamento_saude_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "tratamento_psiquiatrico",
+    "text": "Tratamento psiquiátrico",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "tratamento_psiquiatrico_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "familiares_problemas_psiquiatricos",
+    "text": "Familiares com problemas psiquiátricos",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "familiares_problemas_psiquiatricos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "tratamento_psicologico",
+    "text": "Tratamento psicológico",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "tratamento_psicologico_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "tratamento_neurologico",
+    "text": "Tratamento neurológico",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "tratamento_neurologico_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "diabete",
+    "text": "Diabete",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "diabete_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "hipertensao",
+    "text": "Hipertensão (P.A)",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "hipertensao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "epilepsia",
+    "text": "Epilepsia",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "epilepsia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "uso_drogas",
+    "text": "Faz uso de drogas",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "uso_drogas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "dores_braco",
+    "text": "Tem dores no braço",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "dores_braco_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "doenca_cronica",
+    "text": "Doença crônica",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "doenca_cronica_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "acidente_grave_sequela",
+    "text": "Já sofreu acidente grave que ficou sequela no corpo",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "acidente_grave_sequela_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "cirurgia",
+    "text": "Cirurgia",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "cirurgia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "internacoes",
+    "text": "Internações",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "internacoes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "bronquite_asma",
+    "text": "Bronquite / Asma",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "bronquite_asma_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "rinite_sinusite",
+    "text": "Rinite / Sinusite",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "rinite_sinusite_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "alergias_pele",
+    "text": "Alergias de pele",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "alergias_pele_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "infeccao_rins_bexiga",
+    "text": "Infecção nos rins / Bexiga",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "infeccao_rins_bexiga_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "inchaço_pes_pernas",
+    "text": "Inchaço pés / Pernas",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "inchaço_pes_pernas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "dores_juntas",
+    "text": "Dores nas juntas",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "dores_juntas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "dor_lombar_coluna",
+    "text": "Dor lombar/ Coluna",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "dor_lombar_coluna_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "intestino_regular",
+    "text": "Funcionamento do intestino é regular",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "intestino_regular_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "pratica_exercicio_fisico",
+    "text": "Pratica exercício físico",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "pratica_exercicio_fisico_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "habitos_principais_refeicoes",
+    "text": "Tem hábitos de fazer as principais refeições",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "habitos_principais_refeicoes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "possui_dor_desconforto_fisico",
+    "text": "Você possui alguma dor ou desconforto físico",
+    "type": "sim_nao",
+    "group": "antecedentes"
+  },
+  {
+    "id": "possui_dor_desconforto_fisico_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "antecedentes"
+  },
+  {
+    "id": "sono_fadiga",
+    "text": "SONO E FADIGA:",
+    "type": "group",
+    "group": "sono"
+  },
+  {
+    "id": "dorme_media_horas",
+    "text": "Dorme em média quantas horas por noite",
+    "type": "number",
+    "group": "sono"
+  },
+  {
+    "id": "qualidade_sono_geral",
+    "text": "A qualidade do seu sono é boa (Sim/Não)",
+    "type": "sim_nao",
+    "group": "sono"
+  },
+  {
+    "id": "qualidade_sono_geral_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "sono"
+  },
+  {
+    "id": "nota_saude_geral",
+    "text": "No geral que nota você dá pra sua saúde (Nota)",
+    "type": "number",
+    "group": "sono"
+  },
+  {
+    "id": "fobias",
+    "text": "FOBIAS",
+    "type": "group",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_altura",
+    "text": "Altura",
+    "type": "sim_nao",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_altura_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_espaco_fechado",
+    "text": "Espaço fechado",
+    "type": "sim_nao",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_espaco_fechado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_escuro",
+    "text": "Escuro",
+    "type": "sim_nao",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_escuro_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_aglomerados",
+    "text": "Aglomerados de pessoas",
+    "type": "sim_nao",
+    "group": "fobias"
+  },
+  {
+    "id": "fobia_aglomerados_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "fobias"
+  },
+  {
+    "id": "ansiedade",
+    "text": "ANSIEDADE:",
+    "type": "group",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dormencia_formigamento",
+    "text": "Dormência ou formigamento",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dormencia_formigamento_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sensacao_calor",
+    "text": "Sensação de calor",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sensacao_calor_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_tremores_pernas",
+    "text": "Tremores nas pernas",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_tremores_pernas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_incapaz_relaxar",
+    "text": "Incapaz de relaxar",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_incapaz_relaxar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_medo_pior",
+    "text": "Medo que aconteça o pior",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_medo_pior_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_atordoado_tonto",
+    "text": "Atordoado ou tonto",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_atordoado_tonto_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_palpitacao",
+    "text": "Palpitação ou aceleração do coração",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_palpitacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sem_equilibrio",
+    "text": "Sem equilíbrio",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sem_equilibrio_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_aterrorizado",
+    "text": "Aterrorizado",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_aterrorizado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_nervoso",
+    "text": "Nervoso",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_nervoso_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sufocacao",
+    "text": "Sensação de sufocação",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sufocacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_tremores_maos",
+    "text": "Tremores nas mãos",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_tremores_maos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_tremulo",
+    "text": "Trêmulo",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_tremulo_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_perder_controle",
+    "text": "Medo de perder o controle",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_perder_controle_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dificuldade_respirar",
+    "text": "Dificuldade de respirar",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dificuldade_respirar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_medo_morrer",
+    "text": "Medo de morrer",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_medo_morrer_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_assustado",
+    "text": "Assustado",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_assustado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_indigestao",
+    "text": "Indigestão ou desconforto no abdômen",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_indigestao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sensacao_desmaio",
+    "text": "Sensação de desmaio",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_sensacao_desmaio_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_rosto_afogueado",
+    "text": "Rosto afogueado",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_rosto_afogueado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_suor",
+    "text": "Suor (não devido ao calor)",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_suor_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_insonia",
+    "text": "Insônia ou sono interrompido",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_insonia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_inquietacao_agitacao",
+    "text": "Inquietação / Agitação",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_inquietacao_agitacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_roer_unhas",
+    "text": "Roe unhas",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_roer_unhas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_falta_ar",
+    "text": "Falta de ar ou sensação de sufoco",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_falta_ar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dor_peito",
+    "text": "Dor no peito ou palpitações",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dor_peito_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_inc_falar_clareza",
+    "text": "Incapacidade de falar com clareza",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_inc_falar_clareza_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_formigamento_maos_pes",
+    "text": "Formigamento nas mãos ou pés",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_formigamento_maos_pes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_arrepios_suores",
+    "text": "Arrepios / suores / mãos úmidas",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_arrepios_suores_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_irritacao",
+    "text": "Irritação / perde o controle facilmente",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_irritacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dor_muscular_cabeca",
+    "text": "Dor muscular / dor de cabeça",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_dor_muscular_cabeca_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_pensamentos_ruim",
+    "text": "Pensamentos que algo ruim vai acontecer",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_pensamentos_ruim_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_branco_mente",
+    "text": "Sensação de branco na mente",
+    "type": "sim_nao",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_branco_mente_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ansiedade"
+  },
+  {
+    "id": "ans_intensidade_scale",
+    "text": "INTENSIDADE (0-10)",
+    "type": "scale",
+    "group": "ansiedade",
+    "meta": "0-10"
+  },
+  {
+    "id": "ans_frequencia_scale",
+    "text": "FREQUÊNCIA (0-10)",
+    "type": "scale",
+    "group": "ansiedade",
+    "meta": "0-10"
+  },
+  {
+    "id": "depressao",
+    "text": "DEPRESSÃO:",
+    "type": "group",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_isolamento",
+    "text": "Sinto-me cada vez mais sozinho",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_isolamento_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_choro",
+    "text": "Tenho chorado muito",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_choro_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_acreditar_menos",
+    "text": "Estou acreditando menos em mim",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_acreditar_menos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_nada_vai_bem",
+    "text": "Nada vai bem na minha vida",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_nada_vai_bem_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_inventar_desculpas",
+    "text": "Comecei a inventar desculpas para ficar sozinho",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_inventar_desculpas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_vida_pior",
+    "text": "Minha vida está cada vez pior",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_vida_pior_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_futuro_desanima",
+    "text": "Pensar no futuro me desanima",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_futuro_desanima_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_dias_vazios",
+    "text": "Meus dias tem sido vazios",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_dias_vazios_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_culpa",
+    "text": "Venho me sentindo culpado pelos problemas",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_culpa_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_vida_dificil",
+    "text": "Viver está cada vez mais difícil",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_vida_dificil_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_menos_util",
+    "text": "Sinto-me menos útil",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_menos_util_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_abandono",
+    "text": "Sentimento de abandono",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_abandono_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_desanimo",
+    "text": "Sentimento de desânimo",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_desanimo_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_dorme_muito",
+    "text": "Dorme muito, além do permitido",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_dorme_muito_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_isolamento_vontade",
+    "text": "Vontade de ficar isolado",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_isolamento_vontade_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_tristeza",
+    "text": "Sentimento de tristeza",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_tristeza_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_angustia",
+    "text": "Angústia",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_angustia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_mau_humor",
+    "text": "Mau humor ou irritação",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_mau_humor_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_apetite",
+    "text": "Falta de apetite ou apetite excessiva",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_apetite_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_desejo_morrer",
+    "text": "Desejo de morrer ou de se matar",
+    "type": "sim_nao",
+    "group": "depressao"
+  },
+  {
+    "id": "dep_desejo_morrer_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "depressao"
+  },
+  {
+    "id": "estresse",
+    "text": "ESTRESSE:",
+    "type": "group",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_dificuldade_relaxar",
+    "text": "Dificuldade para relaxar",
+    "type": "sim_nao",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_dificuldade_relaxar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_acumulo_problemas",
+    "text": "Sensação de acúmulo de problemas",
+    "type": "sim_nao",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_acumulo_problemas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_adia_compromissos",
+    "text": "Adiar compromissos importantes por falta de capacidade",
+    "type": "sim_nao",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_adia_compromissos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_identifica_fonte",
+    "text": "Identifica alguma fonte de estresse na sua rotina atual",
+    "type": "sim_nao",
+    "group": "estresse"
+  },
+  {
+    "id": "estresse_identifica_fonte_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "estresse"
+  },
+  {
+    "id": "tdah",
+    "text": "TDAH:",
+    "type": "group",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_age_por_impulso",
+    "text": "Age por impulso",
+    "type": "sim_nao",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_age_por_impulso_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_agitacao_excessiva",
+    "text": "Agitação excessiva",
+    "type": "sim_nao",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_agitacao_excessiva_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_perde_concentracao",
+    "text": "Perde a concentração facilmente",
+    "type": "sim_nao",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_perde_concentracao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_dificuldade_memoria",
+    "text": "Dificuldade em reter memorias",
+    "type": "sim_nao",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_dificuldade_memoria_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_maos_inquietas",
+    "text": "Mãos inquietas",
+    "type": "sim_nao",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_maos_inquietas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_hiperatividade",
+    "text": "Hiperatividade",
+    "type": "sim_nao",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_hiperatividade_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_dificuldade_sentado",
+    "text": "Dificuldade em ficar sentado por mais de 5 minutos",
+    "type": "sim_nao",
+    "group": "tdah"
+  },
+  {
+    "id": "tdah_dificuldade_sentado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tdah"
+  },
+  {
+    "id": "percepcao",
+    "text": "PERCEPÇÃO: ",
+    "type": "group",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_ouvir_vozes",
+    "text": "Costuma ouvir vozes (pessoas ausentes)",
+    "type": "sim_nao",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_ouvir_vozes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_ver_vultos",
+    "text": "Enxerga vultos ou tem visões",
+    "type": "sim_nao",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_ver_vultos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_sentir_perseguido",
+    "text": "Sente-se perseguido",
+    "type": "sim_nao",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_sentir_perseguido_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_obrigado_agir",
+    "text": "Sente-se obrigado a agir contra sua vontade",
+    "type": "sim_nao",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_obrigado_agir_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_alucinacoes",
+    "text": "Tem alucinações",
+    "type": "sim_nao",
+    "group": "percepcao"
+  },
+  {
+    "id": "percepcao_alucinacoes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "percepcao"
+  },
+  {
+    "id": "toc",
+    "text": "TOC:",
+    "type": "group",
+    "group": "toc"
+  },
+  {
+    "id": "toc_medos_fortes",
+    "text": "Tem algum medo forte",
+    "type": "sim_nao",
+    "group": "toc"
+  },
+  {
+    "id": "toc_medos_fortes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "toc"
+  },
+  {
+    "id": "toc_medos_doencas",
+    "text": "Medo de contrair doenças sem motivo",
+    "type": "sim_nao",
+    "group": "toc"
+  },
+  {
+    "id": "toc_medos_doencas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "toc"
+  },
+  {
+    "id": "toc_manias_repetitivas",
+    "text": "Manias repetitivas",
+    "type": "sim_nao",
+    "group": "toc"
+  },
+  {
+    "id": "toc_manias_repetitivas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "toc"
+  },
+  {
+    "id": "toc_pensamentos_duvidosos",
+    "text": "Pensamentos duvidosos com frequência",
+    "type": "sim_nao",
+    "group": "toc"
+  },
+  {
+    "id": "toc_pensamentos_duvidosos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "toc"
+  },
+  {
+    "id": "toc_roer_unhas_arrancar_cabelo",
+    "text": "Roe unhas / arranca cabelo / estala dedos",
+    "type": "sim_nao",
+    "group": "toc"
+  },
+  {
+    "id": "toc_roer_unhas_arrancar_cabelo_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "toc"
+  },
+  {
+    "id": "panico",
+    "text": "PÂNICO:",
+    "type": "group",
+    "group": "panico"
+  },
+  {
+    "id": "panico_perder_pernas",
+    "text": "Sensação de perder as pernas",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_perder_pernas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "panico_sensacao_morte",
+    "text": "Sensação de morte",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_sensacao_morte_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "panico_confusao_mental",
+    "text": "Confusão mental",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_confusao_mental_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "panico_dificuldade_respirar",
+    "text": "Dificuldade de respirar",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_dificuldade_respirar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "panico_tonturas",
+    "text": "Tonturas",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_tonturas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "panico_medo_sair_casa",
+    "text": "Medo de sair de casa",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_medo_sair_casa_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "panico_engasgos",
+    "text": "Engasgos",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_engasgos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "panico_sudorese",
+    "text": "Sudorese / transpira frio",
+    "type": "sim_nao",
+    "group": "panico"
+  },
+  {
+    "id": "panico_sudorese_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "panico"
+  },
+  {
+    "id": "compulsao",
+    "text": "COMPULSÃO:",
+    "type": "group",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_comida",
+    "text": "Comida (compulsão)",
+    "type": "sim_nao",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_comida_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_drogas",
+    "text": "Drogas (compulsão)",
+    "type": "sim_nao",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_drogas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_jogos",
+    "text": "Jogos (compulsão)",
+    "type": "sim_nao",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_jogos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_compras",
+    "text": "Compras (compulsão)",
+    "type": "sim_nao",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_compras_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_sexo",
+    "text": "Sexo (compulsão)",
+    "type": "sim_nao",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_sexo_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_celular",
+    "text": "CELULAR (compulsão)",
+    "type": "sim_nao",
+    "group": "compulsao"
+  },
+  {
+    "id": "compulsao_celular_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "compulsao"
+  },
+  {
+    "id": "tspt",
+    "text": "TSPT:",
+    "type": "group",
+    "group": "tspt"
+  },
+  {
+    "id": "tspt_reexperiencia_flashbacks",
+    "text": "Reexperiência do fato (flash backs)",
+    "type": "sim_nao",
+    "group": "tspt"
+  },
+  {
+    "id": "tspt_reexperiencia_flashbacks_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tspt"
+  },
+  {
+    "id": "tspt_pesadelos",
+    "text": "Pesadelos recorrentes ao trauma",
+    "type": "sim_nao",
+    "group": "tspt"
+  },
+  {
+    "id": "tspt_pesadelos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tspt"
+  },
+  {
+    "id": "tspt_automutilacao_frequencia",
+    "text": "Automutilação com frequência",
+    "type": "sim_nao",
+    "group": "tspt"
+  },
+  {
+    "id": "tspt_automutilacao_frequencia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "tspt"
+  },
+  {
+    "id": "fatores_ambientais",
+    "text": "FATORES AMBIENTAIS:",
+    "type": "group",
+    "group": "ambientais"
+  },
+  {
+    "id": "apoio_rede",
+    "text": "Com quem você pode contar quando precisa de apoio (texto)",
+    "type": "textarea",
+    "group": "ambientais"
+  },
+  {
+    "id": "relacionamentos_afetivos_ult_ano",
+    "text": "Em relação aos seus relacionamentos afetivos, no último ano, vivenciou (texto)",
+    "type": "textarea",
+    "group": "ambientais"
+  },
+  {
+    "id": "luto_familiar",
+    "text": "Luto familiar",
+    "type": "sim_nao",
+    "group": "ambientais"
+  },
+  {
+    "id": "luto_familiar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ambientais"
+  },
+  {
+    "id": "perda_economica",
+    "text": "Perda da economia",
+    "type": "sim_nao",
+    "group": "ambientais"
+  },
+  {
+    "id": "perda_economica_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ambientais"
+  },
+  {
+    "id": "perda_status",
+    "text": "Perda de status/ prestígio",
+    "type": "sim_nao",
+    "group": "ambientais"
+  },
+  {
+    "id": "perda_status_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ambientais"
+  },
+  {
+    "id": "afastamento_geografico",
+    "text": "Afastamento geográfico: Mudança brusca",
+    "type": "sim_nao",
+    "group": "ambientais"
+  },
+  {
+    "id": "afastamento_geografico_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "ambientais"
+  },
+  {
+    "id": "relacionamento_parentes_nota",
+    "text": "Relacionamento com familiares - Nota",
+    "type": "number",
+    "group": "ambientais"
+  },
+  {
+    "id": "relacionamento_amigos_nota",
+    "text": "Relacionamento com amigos - Nota",
+    "type": "number",
+    "group": "ambientais"
+  },
+  {
+    "id": "relacionamento_amoroso_nota",
+    "text": "Relacionamento amoroso - Nota",
+    "type": "number",
+    "group": "ambientais"
+  },
+  {
+    "id": "espiritualidade_nota",
+    "text": "Espiritualidade/ Fé - Nota",
+    "type": "number",
+    "group": "ambientais"
+  },
+  {
+    "id": "fatores_risco",
+    "text": "FATORES DE RISCO :",
+    "type": "group",
+    "group": "riscos"
+  },
+  {
+    "id": "grau_responsabilidade_trabalho",
+    "text": "Seu grau de responsabilidade no trabalho é (B/M/A)",
+    "type": "radio",
+    "options": [
+      "Baixo",
+      "Médio",
+      "Alto"
+    ],
+    "group": "riscos"
+  },
+  {
+    "id": "responsabilidade_adequada",
+    "text": "A responsabilidade é adequada a sua função",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "responsabilidade_adequada_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "cumpre_obrigacoes",
+    "text": "Cumpre suas obrigações com responsabilidade",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "cumpre_obrigacoes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "atividade_envolve_risco",
+    "text": "Sua atividade envolve Risco",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "atividade_envolve_risco_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "consegue_concentrar",
+    "text": "Consegue se concentrar nas suas atividades",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "consegue_concentrar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "tem_treinamento_cargo",
+    "text": "Tem treinamento referente ao seu cargo",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "tem_treinamento_cargo_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "presenciou_acidente_trabalho",
+    "text": "Presenciou acidente no seu trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "presenciou_acidente_trabalho_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "ambiente_trabalho_adequado",
+    "text": "Seu ambiente de trabalho é adequado",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "ambiente_trabalho_adequado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "recompensas_adequadas",
+    "text": "As recompensas no trabalho são adequadas",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "recompensas_adequadas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "relacionamento_chefia_bom",
+    "text": "É bom o seu relacionamento com a chefia",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "relacionamento_chefia_bom_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "comunicacao_clara_chefia",
+    "text": "Tem comunicação clara com a chefia",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "comunicacao_clara_chefia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "jornada_cansativa",
+    "text": "Sua jornada de trabalho é cansativa",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "jornada_cansativa_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "mudancas_turno_constante",
+    "text": "Tem mudanças de turno constante",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "mudancas_turno_constante_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "horas_extras_frequentes",
+    "text": "Faz muitas horas extras com frequência",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "horas_extras_frequentes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "ja_se_machucou_trabalho",
+    "text": "Já se machucou neste trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "ja_se_machucou_trabalho_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "percebe_risco_trabalho",
+    "text": "Você percebe situação de risco em seu trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "percebe_risco_trabalho_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "avalia_riscos_antes_agir",
+    "text": "Procura avaliar os riscos antes de agir",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "avalia_riscos_antes_agir_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "faz_revisao_trabalho",
+    "text": "Faz revisão do seu trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "faz_revisao_trabalho_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "trabalha_equipamentos_inadequados",
+    "text": "Trabalha com equipamentos inadequados",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "trabalha_equipamentos_inadequados_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "erro_afeta_trabalho_demaiss",
+    "text": "O seu erro afeta o trabalho dos demais",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "erro_afeta_trabalho_demaiss_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "empresa_oferece_condicoes_seguranca",
+    "text": "Empresa oferece condições de segurança",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "empresa_oferece_condicoes_seguranca_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "tem_orientacao_atividades",
+    "text": "Tem orientação das suas atividades",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "tem_orientacao_atividades_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "dificuldade_terminar",
+    "text": "Tem dificuldade em terminar o que começa",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "dificuldade_terminar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "é_afobado_trabalho",
+    "text": "É afobado no trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "é_afobado_trabalho_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "colaboracao_colegas",
+    "text": "Colaboração dos colegas no trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "colaboracao_colegas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "falta_chega_atrasada",
+    "text": "Você falta muito / chega atrasada com frequência",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "falta_chega_atrasada_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "resolve_problemas",
+    "text": "É capaz de resolver os problemas que aparecem no trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "resolve_problemas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "mantem_coisas_limpa_ordem",
+    "text": "Mantém suas coisas limpas e em ordens",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "mantem_coisas_limpa_ordem_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "pessoa_produtiva",
+    "text": "É uma pessoa produtiva que sempre consegue fazer as coisas",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "pessoa_produtiva_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "sente_orgulho_ao_finalizar",
+    "text": "Sente orgulho quando finaliza seu trabalho",
+    "type": "sim_nao",
+    "group": "riscos"
+  },
+  {
+    "id": "sente_orgulho_ao_finalizar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "riscos"
+  },
+  {
+    "id": "comportamento_risco",
+    "text": "COMPORTAMENTO DE RISCO:",
+    "type": "group",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "faz_planos_futuro",
+    "text": "Faz planos para o futuro",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "faz_planos_futuro_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "dificuldades_aceitar_opiniao",
+    "text": "Tem dificuldades em aceitar a opinião dos outros",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "dificuldades_aceitar_opiniao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "valoriza_se_custa_outros",
+    "text": "Valoriza-se à custa dos outros",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "valoriza_se_custa_outros_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "costuma_enganar",
+    "text": "Costuma enganar as pessoas",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "costuma_enganar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "retruca_por_qualquer_coisa",
+    "text": "Retruca por qualquer coisa",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "retruca_por_qualquer_coisa_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "pode_agredir_fisicamente",
+    "text": "Pode agredir fisicamente as pessoas quando fica irritado",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "pode_agredir_fisicamente_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "amigos_dizem_nervoso_estressado",
+    "text": "Seus amigos dizem que você é nervoso / estressado",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "amigos_dizem_nervoso_estressado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "bate_porta_quando_irritado",
+    "text": "Bate porta quando fica irritado",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "bate_porta_quando_irritado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "cabeça_quente",
+    "text": "É uma pessoa de cabeça quente",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "cabeça_quente_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "vontade_quebrar_coisas",
+    "text": "Tem vontade de quebrar as coisas quando fica irritado",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "vontade_quebrar_coisas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "gosta_xingar",
+    "text": "Gosta de xingar, humilhar as pessoas próximas de você",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "gosta_xingar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "usa_pessoas_para_progresso",
+    "text": "Usa as pessoas para conseguir o que deseja",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "usa_pessoas_para_progresso_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "ultima_palavra_sua",
+    "text": "A última palavra sempre tem que ser a sua",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "ultima_palavra_sua_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "tenta_se_controlar",
+    "text": "Tenta se controlar para não perder a cabeça",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "tenta_se_controlar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "gosta_discordar_normas",
+    "text": "Gosta de discordar de regras e normas, leis",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "gosta_discordar_normas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "necessita_grupos_risco",
+    "text": "Necessita estar em grupos de pessoas em situação de risco",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "necessita_grupos_risco_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "sente_util_na_vida",
+    "text": "Tem se sentindo que é útil na vida",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "sente_util_na_vida_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "problemas_com_lei",
+    "text": "Tem problemas com a lei e justiça",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "problemas_com_lei_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "participaria_fraude",
+    "text": "Participaria de uma fraude para progredir na vida",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "participaria_fraude_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "explode_facil",
+    "text": "Explode facilmente é do tipo pavio curto",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "explode_facil_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "egoista_inveja",
+    "text": "É uma pessoa egoísta e invejosa",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "egoista_inveja_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "pessoa_fria_calculista",
+    "text": "É uma pessoa fria e calculista",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "pessoa_fria_calculista_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "cabeçudo_teimoso",
+    "text": "É cabeçudo e teimoso",
+    "type": "sim_nao",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "cabeçudo_teimoso_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "comportamento_risco"
+  },
+  {
+    "id": "anamnese_infantil",
+    "text": "ANAMNESE INFANTIL :",
+    "type": "group",
+    "group": "infantil"
+  },
+  {
+    "id": "idade_materna_gestacao",
+    "text": "Idade Materna durante a gestação",
+    "type": "number",
+    "group": "infantil"
+  },
+  {
+    "id": "idade_paterna_gestacao",
+    "text": "Idade Paterna durante a gestação",
+    "type": "number",
+    "group": "infantil"
+  },
+  {
+    "id": "gestacao_planejada",
+    "text": "A gestação foi planejada",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "gestacao_planejada_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "gestacao_bem_aceita",
+    "text": "A gestação foi bem aceita",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "gestacao_bem_aceita_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_fumou_gestacao",
+    "text": "A mãe fumou durante a gestação",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_fumou_gestacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_consumiu_alcool_gestacao",
+    "text": "A mãe consumiu álcool durante a gestação",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_consumiu_alcool_gestacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_enfrentou_enfermidade_gestacao",
+    "text": "A mãe enfrentou alguma enfermidade durante a gestação",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_enfrentou_enfermidade_gestacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "problema_parto_gestacao",
+    "text": "Houve algum problema no parto ou na gestação",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "problema_parto_gestacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_usou_medicamentos_gestacao",
+    "text": "A mãe usou medicamentos durante a gestação",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "mae_usou_medicamentos_gestacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "quais_medicamentos_usados",
+    "text": "Quais medicamentos foram usados",
+    "type": "text",
+    "group": "infantil"
+  },
+  {
+    "id": "tipo_parto",
+    "text": "Tipo de parto",
+    "type": "text",
+    "group": "infantil"
+  },
+  {
+    "id": "parto_prematuro",
+    "text": "Parto prematuro",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "parto_prematuro_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "incubadora",
+    "text": "Foi colocado em incubadora - por quanto tempo",
+    "type": "text",
+    "group": "infantil"
+  },
+  {
+    "id": "exposta_evento_traumatico",
+    "text": "Ela foi exposta a algum evento traumático",
+    "type": "sim_nao",
+    "group": "infantil"
+  },
+  {
+    "id": "exposta_evento_traumatico_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "criança_tarefas_domesticas",
+    "text": "A criança realiza alguma tarefa doméstica - quais",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "recompensa_comportamento",
+    "text": "Quando a criança faz algo certo, quais atitudes os pais tomam",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "quem_cuida_crianca",
+    "text": "Quem cuida da criança a maior parte do tempo",
+    "type": "text",
+    "group": "infantil"
+  },
+  {
+    "id": "relacao_casal",
+    "text": "Como é a relação do casal",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "relacionamento_parentes_crianca",
+    "text": "Como é o relacionamento de outros parentes com a criança",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "relacao_irmaos",
+    "text": "Como é o relacionamento com outros irmãos",
+    "type": "textarea",
+    "group": "infantil"
+  },
+  {
+    "id": "tod_block",
+    "text": "TOD / comportamento infantil :",
+    "type": "group",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "familia_transtorno_mental",
+    "text": "Existe algum tipo de transtorno mental na família",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "familia_transtorno_mental_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_comporta_agressiva",
+    "text": "A criança costuma brigar com outras crianças ou apresenta comportamentos agressivos",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_comporta_agressiva_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_vingativa",
+    "text": "A criança costuma ser vingativa ou rancorosa",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_vingativa_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_impulsiva",
+    "text": "A criança apresenta comportamentos impulsivos",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_impulsiva_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_irritavel_raivoso",
+    "text": "Comportamento irritável e raivoso",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_irritavel_raivoso_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_mente_culpa",
+    "text": "Tendência a culpar os outros por seus erros",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_mente_culpa_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_mente_mente",
+    "text": "A criança costuma mentir ou enganar os pais",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_mente_mente_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_ansiedade_depressao_signs",
+    "text": "A criança apresenta sintomas de ansiedade ou depressão",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_ansiedade_depressao_signs_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_dificuldade_emocional",
+    "text": "A criança tem dificuldades em lidar com emoções intensas",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_dificuldade_emocional_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_relacionamento_dificuldade",
+    "text": "A criança apresenta dificuldades em se relacionar com outras crianças ou adultos",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_relacionamento_dificuldade_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_passou_trauma",
+    "text": "A criança já passou por alguma situação traumática",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_passou_trauma_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_exposta_violencia",
+    "text": "A criança já foi exposta a violência ou conflitos familiares",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_exposta_violencia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "pais_relacao_com_crianca",
+    "text": "Como é a relação dos pais com a criança",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "pais_lidam_com_behaviors",
+    "text": "Como os pais lidam com os comportamentos problemáticos",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_pratica_atividade_fisica",
+    "text": "A criança pratica atividades físicas regularmente",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_pratica_atividade_fisica_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_perde_interesse_brinq",
+    "text": "Ela perde o interesse pelos brinquedos rapidamente",
+    "type": "sim_nao",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "crianca_perde_interesse_brinq_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_comportamento"
+  },
+  {
+    "id": "historico_escolar",
+    "text": "HISTÓRICO ESCOLAR :",
+    "type": "group",
+    "group": "escolar"
+  },
+  {
+    "id": "desempenho_escolar",
+    "text": "Como é o desempenho escolar da criança",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_apresenta_dificuldade_escola",
+    "text": "A criança apresenta dificuldade na escola",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_apresenta_dificuldade_escola_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_gosta_ir_escola",
+    "text": "Ela gosta de ir a escola",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_gosta_ir_escola_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_dificuldade_regras",
+    "text": "A criança apresenta dificuldades em seguir as regras da escola",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_dificuldade_regras_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_dificuldade_concentracao",
+    "text": "A criança tem dificuldades em se concentrar ou permanecer sentada",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_dificuldade_concentracao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "horario_tarefas",
+    "text": "Há um horário determinado para as tarefas escolares",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "horario_tarefas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "pais_estudam_com_crianca",
+    "text": "Os pais estudam juntos com a criança",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "pais_estudam_com_crianca_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_punida_nao_boas_notas",
+    "text": "Ela é punida por não tirar boas notas",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_punida_nao_boas_notas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_suspensa_expulsa",
+    "text": "A criança já foi suspensa ou expulsa da escola? Qual o motivo?",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_dificuldade_aprender",
+    "text": "A criança apresenta dificuldades em aprender ou acompanhar",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_dificuldade_aprender_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_falta_aulas_baixa_frequencia",
+    "text": "A criança costuma faltar às aulas ou apresentar baixa frequência escolar",
+    "type": "sim_nao",
+    "group": "escolar"
+  },
+  {
+    "id": "crianca_falta_aulas_baixa_frequencia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "escolar"
+  },
+  {
+    "id": "sono_infantil",
+    "text": "SONO (infantil)",
+    "type": "group",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_boa_qualidade_sono",
+    "text": "A criança tem boa qualidade de sono",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_boa_qualidade_sono_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_movimenta_durante_sono",
+    "text": "Ela se movimenta muito enquanto dorme",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_movimenta_durante_sono_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_sua_sono",
+    "text": "Ela sua durante o sono",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_sua_sono_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_pesadelos",
+    "text": "A criança costuma ter pesadelos",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_pesadelos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_chora_grita_durante_sono",
+    "text": "Ela chora ou grita enquanto dorme",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_chora_grita_durante_sono_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_fala_durante_sono",
+    "text": "Ela fala enquanto está dormindo",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_fala_durante_sono_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_range_dentes",
+    "text": "Ela range os dentes durante o sono",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_range_dentes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_sonambula",
+    "text": "A criança é sonâmbula",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_sonambula_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_pesadelos_frequentes",
+    "text": "Ela tem pesadelos com frequência",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_pesadelos_frequentes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_insônia",
+    "text": "A criança apresenta insônia",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_insônia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_dorme_excesso",
+    "text": "Ela dorme em excesso",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_dorme_excesso_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_dorme_sozinha",
+    "text": "A criança dorme sozinha",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_dorme_sozinha_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_cama_individual",
+    "text": "Ela tem uma cama individual",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_cama_individual_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_divide_quarto",
+    "text": "Divide o quarto com alguém",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_divide_quarto_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_sai_cama_pais",
+    "text": "Ela costuma sair da cama e ir para a cama dos pais",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "crianca_sai_cama_pais_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "horario_dormir_crianca",
+    "text": "Qual o horário que a criança costuma dormir",
+    "type": "text",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "horario_acordar_crianca",
+    "text": "Qual o horário em que ela costuma acordar",
+    "type": "text",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "descricao_sono_crianca",
+    "text": "Como é o sono da criança? Ela costuma dormir bem durante a noite?",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "pesadelos_terror_noturno",
+    "text": "A criança apresenta pesadelos ou terrores noturnos",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "pesadelos_terror_noturno_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "dificuldade_adormecer",
+    "text": "A criança tem dificuldades para adormecer ou em acordar pela manhã",
+    "type": "sim_nao",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "dificuldade_adormecer_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_sono"
+  },
+  {
+    "id": "historico_medico_infantil",
+    "text": "HISTÓRICO MÉDICO (infantil)",
+    "type": "group",
+    "group": "infantil_medico"
+  },
+  {
+    "id": "crianca_doenca_cronica",
+    "text": "A criança tem alguma doença crônica ou condição de saúde",
+    "type": "sim_nao",
+    "group": "infantil_medico"
+  },
+  {
+    "id": "crianca_doenca_cronica_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_medico"
+  },
+  {
+    "id": "crianca_cirurgia_internacao",
+    "text": "A criança já passou por alguma cirurgia ou internação hospitalar",
+    "type": "sim_nao",
+    "group": "infantil_medico"
+  },
+  {
+    "id": "crianca_cirurgia_internacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_medico"
+  },
+  {
+    "id": "crianca_acidente_lesao",
+    "text": "A criança já sofreu algum tipo de acidente ou lesão",
+    "type": "sim_nao",
+    "group": "infantil_medico"
+  },
+  {
+    "id": "crianca_acidente_lesao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_medico"
+  },
+  {
+    "id": "historico_psicologico_infantil",
+    "text": "HISTÓRICO PSICOLÓGICO (infantil)",
+    "type": "group",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_avaliacao_tratamento_psicologico",
+    "text": "A criança já passou por alguma avaliação ou tratamento psicológico? Qual diagnóstico?",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_automutilacao_ideacao",
+    "text": "A criança já teve episódio de automutilação, ideação suicida ou tentativa",
+    "type": "sim_nao",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_automutilacao_ideacao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_relacionamento_criancas",
+    "text": "A criança costuma se relacionar bem com outras crianças da mesma idade",
+    "type": "sim_nao",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_relacionamento_criancas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_dificuldade_entender_emocoes",
+    "text": "A criança apresenta dificuldades em entender emoções e sentimentos alheios",
+    "type": "sim_nao",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_dificuldade_entender_emocoes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_isolamento",
+    "text": "A criança costuma se isolar ou se recuar a participar de atividades sociais",
+    "type": "sim_nao",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_isolamento_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "descrever_humor_crianca",
+    "text": "Como você descreveria o humor da criança no dia a dia?",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_medos_especificos",
+    "text": "A criança tem medos específicos?",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_dificuldade_lidar_mudancas",
+    "text": "A criança tem dificuldades para lidar com mudanças ou novidades?",
+    "type": "sim_nao",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_dificuldade_lidar_mudancas_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_dificuldade_perder_ser_contrariado",
+    "text": "Tem dificuldades para perder ou ser contrariada?",
+    "type": "sim_nao",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_dificuldade_perder_ser_contrariado_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_amigos_imaginarios",
+    "text": "Ela já teve ou tem amigos imaginários?",
+    "type": "sim_nao",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "crianca_amigos_imaginarios_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_psicologico"
+  },
+  {
+    "id": "alimentacao",
+    "text": "ALIMENTAÇÃO (infantil)",
+    "type": "group",
+    "group": "infantil_alimentacao"
+  },
+  {
+    "id": "crianca_restricao_alimentar",
+    "text": "A criança tem alguma restrição alimentar",
+    "type": "sim_nao",
+    "group": "infantil_alimentacao"
+  },
+  {
+    "id": "crianca_restricao_alimentar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_alimentacao"
+  },
+  {
+    "id": "crianca_compulsiva_restritiva",
+    "text": "A criança apresenta alimentação compulsiva ou restritiva",
+    "type": "sim_nao",
+    "group": "infantil_alimentacao"
+  },
+  {
+    "id": "crianca_compulsiva_restritiva_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_alimentacao"
+  },
+  {
+    "id": "crianca_obesidade_desnutricao",
+    "text": "A criança tem problema com obesidade ou desnutrição",
+    "type": "sim_nao",
+    "group": "infantil_alimentacao"
+  },
+  {
+    "id": "crianca_obesidade_desnutricao_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_alimentacao"
+  },
+  {
+    "id": "relacionamento_familiar_infantil",
+    "text": "RELACIONAMENTO FAMILIAR (infantil)",
+    "type": "group",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "crianca_tem_irmaos",
+    "text": "A criança tem irmãos?",
+    "type": "sim_nao",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "crianca_tem_irmaos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "relacao_com_irmaos",
+    "text": "Como é o relacionamento dela com eles?",
+    "type": "textarea",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "crianca_briga_ciumes_irmaos",
+    "text": "A criança costuma brigar ou ter ciúmes dos irmãos",
+    "type": "sim_nao",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "crianca_briga_ciumes_irmaos_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "crianca_se_sente_excluida",
+    "text": "A criança costuma se sentir excluída",
+    "type": "sim_nao",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "crianca_se_sente_excluida_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "fam_reune_para_refeicoes",
+    "text": "A família costuma se reunir para as refeições",
+    "type": "sim_nao",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "fam_reune_para_refeicoes_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "rotina_familia",
+    "text": "Como é a rotina da família em casa?",
+    "type": "textarea",
+    "group": "infantil_relacionamento"
+  },
+  {
+    "id": "estresse_crianca",
+    "text": "ESTRESSE NA VIDA DA CRIANÇA :",
+    "type": "group",
+    "group": "infantil_estresse"
+  },
+  {
+    "id": "crianca_evento_estressante",
+    "text": "A criança tá passando por algum evento estressante (mudança, divórcio, morte)",
+    "type": "sim_nao",
+    "group": "infantil_estresse"
+  },
+  {
+    "id": "crianca_evento_estressante_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_estresse"
+  },
+  {
+    "id": "crianca_vitima_bullying",
+    "text": "A criança está sendo vítima de bullying ou assédio moral",
+    "type": "sim_nao",
+    "group": "infantil_estresse"
+  },
+  {
+    "id": "crianca_vitima_bullying_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_estresse"
+  },
+  {
+    "id": "abuso_substancias_crianca",
+    "text": "ABUSO DE SUBSTÂNCIAS (infantil)",
+    "type": "group",
+    "group": "infantil_abuso"
+  },
+  {
+    "id": "crianca_experimentou_substancias",
+    "text": "A criança já experimentou álcool, drogas ou cigarro?",
+    "type": "sim_nao",
+    "group": "infantil_abuso"
+  },
+  {
+    "id": "crianca_experimentou_substancias_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_abuso"
+  },
+  {
+    "id": "relacionamento_pais",
+    "text": "RELACIONAMENTO DOS PAIS ENTRE SI (infantil)",
+    "type": "group",
+    "group": "infantil_pais"
+  },
+  {
+    "id": "pais_relacionamento_como",
+    "text": "Como é o relacionamento dos pais entre si?",
+    "type": "textarea",
+    "group": "infantil_pais"
+  },
+  {
+    "id": "pais_separados",
+    "text": "Os pais estão separados ou divorciados?",
+    "type": "sim_nao",
+    "group": "infantil_pais"
+  },
+  {
+    "id": "pais_separados_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_pais"
+  },
+  {
+    "id": "crianca_lidando_com_separacao",
+    "text": "Como a criança esta lidando com essa situação?",
+    "type": "textarea",
+    "group": "infantil_pais"
+  },
+  {
+    "id": "uso_tecnologia",
+    "text": "USO DE TECNOLOGIA (infantil)",
+    "type": "group",
+    "group": "infantil_tecnologia"
+  },
+  {
+    "id": "crianca_acesso_tecnologia",
+    "text": "A criança tem acesso à tecnologia e redes sociais?",
+    "type": "sim_nao",
+    "group": "infantil_tecnologia"
+  },
+  {
+    "id": "crianca_acesso_tecnologia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_tecnologia"
+  },
+  {
+    "id": "tempo_uso_dispositivos",
+    "text": "Quanto tempo passa utilizando dispositivos por dia",
+    "type": "text",
+    "group": "infantil_tecnologia"
+  },
+  {
+    "id": "dificuldade_limitar_tecnologia",
+    "text": "Apresenta dificuldades em limitar o uso de tecnologia",
+    "type": "sim_nao",
+    "group": "infantil_tecnologia"
+  },
+  {
+    "id": "dificuldade_limitar_tecnologia_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_tecnologia"
+  },
+  {
+    "id": "hobbies_lazer",
+    "text": "HOBBIES / LAZER (infantil)",
+    "type": "group",
+    "group": "infantil_hobbies"
+  },
+  {
+    "id": "participa_atividades",
+    "text": "A criança participa de alguma atividade (esportes, artes, musica)?",
+    "type": "sim_nao",
+    "group": "infantil_hobbies"
+  },
+  {
+    "id": "participa_atividades_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_hobbies"
+  },
+  {
+    "id": "grau_interesse_satisfacao",
+    "text": "Qual é grau de interesse e satisfação em relação a essas atividades?",
+    "type": "text",
+    "group": "infantil_hobbies"
+  },
+  {
+    "id": "tempo_para_brincar",
+    "text": "A criança tem tempo suficiente para brincar e se divertir?",
+    "type": "sim_nao",
+    "group": "infantil_hobbies"
+  },
+  {
+    "id": "tempo_para_brincar_detalhes",
+    "text": "Descreva detalhadamente:",
+    "type": "textarea",
+    "group": "infantil_hobbies"
+  }
+]
